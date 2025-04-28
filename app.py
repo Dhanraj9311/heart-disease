@@ -24,7 +24,7 @@ except Exception as e:
 @app.route('/')
 def home() -> str:
     """Home endpoint that returns a simple greeting."""
-    return '<h1>\predictio</h1>'
+    return '<h1>\prediction</h1>'
 
 
 @app.route('/prediction', methods=['POST'])
